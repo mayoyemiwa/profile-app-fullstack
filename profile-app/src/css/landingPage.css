@@ -1,0 +1,279 @@
+.landingPage{
+    background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+    width:1440;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+.landing{
+    position: absolute;
+    left:57%;
+    top:10%;
+}
+.welcome{
+    display: absolute;
+    color:#27200C;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    left:57%;
+    top:10%;
+    transition: 4s;
+}
+.welcomeC{
+    color: rgba(240, 210, 44, 0.822);
+}
+.logo{
+    background: url('../image//myLogo3.png') no-repeat center;
+    display: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    position: absolute;
+    left:132px;
+    top:40px;
+    transition: 4s;
+}
+.logoR{
+    transform: rotateZ(360deg);
+}
+.welcome2{
+    display: absolute;
+    color:#27200C;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    left:185px;
+    top:0px;
+    transition:4s
+}
+.welcomeC2{
+    color: rgba(240, 210, 44, 0.822);
+}
+.myText{
+    position: absolute;
+    left:60%;
+    top:25%;
+}
+.text{
+    position: absolute;
+    width: 200px;
+    letter-spacing: 9%;
+    left:8px;
+    top:0px;
+    font-size: 40px;
+    color: #F5EEE7;
+    text-align: center;
+    font-weight: bold;
+}
+.line{
+    position: absolute;
+    left:67%;
+    top:70%;
+    transition:2s; 
+}
+.lineR{
+    transform: rotateY(180deg);
+}
+.head1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #27200C;
+    top:12%;
+    left:-495%;
+    rotate: 45deg;
+}
+.line1{
+    position: absolute;
+    border-bottom: 5px solid #27200C;
+    width: 120px;
+    top:20%;
+    left:-460%;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #27200C;
+}
+.line2{
+    position: absolute;
+    border-bottom: 5px solid #27200C;
+    width: 120px;
+    top:20%;
+    left:165%;
+}
+.head2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #27200C;
+    top:11%;
+    left:568%;
+    rotate: 45deg;
+}
+
+
+@media(max-width:1350px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: blue no-repeat center; */
+        width:1350px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .landing{
+        position: absolute;
+        left:57%;
+        top:10%;
+    }
+}
+@media(max-width:1300px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: grey no-repeat center; */
+        width:1300px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .landing{
+        position: absolute;
+        left:55%;
+        top:10%;
+    }
+    .myText{
+        position: absolute;
+        left:57.7%;
+        top:25%;
+    }
+    .line{
+        position: absolute;
+        left:65%;
+        top:70%;
+        transition:2s; 
+    }
+}
+@media(max-width:1200px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: green no-repeat center; */
+        width:1200px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .landing{
+        position: absolute;
+        left:50%;
+        top:10%;
+    }
+    .myText{
+        position: absolute;
+        left:53%;
+        top:25%;
+    }
+    .line{
+        position: absolute;
+        left:60.5%;
+        top:70%;
+        transition:2s; 
+    }
+}
+@media(max-width:1000px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: yellow no-repeat center; */
+        width:1000px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .myText{
+        position: absolute;
+        left:53%;
+        top:25%;
+    }
+    .line{
+        position: absolute;
+        left:62%;
+        top:70%;
+        transition:2s; 
+    }
+}
+@media(max-width:900px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: yellow no-repeat center; */
+        width:900px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .myText{
+        position: absolute;
+        left:53%;
+        top:25%;
+    }
+    .line{
+        position: absolute;
+        left:62%;
+        top:70%;
+        transition:2s; 
+    }
+    .lineS{
+        position: absolute;
+        left:62%;
+        top:70%;
+        transform: translate(-200px, -165px) rotate(90deg)
+    }
+}
+@media(max-width:800px) {
+    .landingPage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: rgb(8, 218, 183) no-repeat center; */
+        width:800px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .landing{
+        position: absolute;
+        left:47%;
+        top:10%;
+    }
+    .myText{
+        position: absolute;
+        left:50%;
+        top:25%;
+    }
+    .line{
+        position: absolute;
+        left:62%;
+        top:70%;
+        transition:2s; 
+    }
+    .lineS{
+        position: absolute;
+        left:62%;
+        top:70%;
+        transform: translate(-200px, -165px) rotate(2790deg)
+    }
+}

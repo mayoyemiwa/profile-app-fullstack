@@ -1,0 +1,16 @@
+const ACTIONS = {
+    GET_TOKEN : "GET_TOKEN",
+    GET_USER : "GET_USER",
+    DELETE_USER : "DELETE_USER",
+    DELETE_TOKEN : "DELETE_TOKEN",
+    LOGGED : "LOGGED",
+    WATCHED : "WATCHED",
+    LOGIN : "LOGIN",
+    EDIT : "EDIT",
+    UNEDIT : "UNEDIT",
+    NOTLOGIN : "NOTLOGIN",
+    NOT_WATCHED : "NOT_WATCHED",
+    ACCESS : "ACCESS",
+}
+
+export default ACTIONS

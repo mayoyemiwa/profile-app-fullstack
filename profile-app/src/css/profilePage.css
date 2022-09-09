@@ -1,0 +1,59 @@
+.profilePage{
+    position: relative;
+    padding: 1em;
+    background: #27200C;
+    width:1440;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.profilePage2{
+    position: relative;
+    padding: 1em;
+    background: rgb(112, 104, 82);
+    width:1440;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Psection{
+    padding-top: 1em;
+    width: 360px;
+    background: rgb(214, 212, 212);
+    border-radius:10px;
+    margin: auto;
+    margin-top: 3em;
+}
+.profile1{
+    margin-top: 2em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.profile1 > label{
+    display: block;
+    width: 300px;
+    text-align: left;
+    background: rgb(200, 200, 200);
+    margin-bottom: 0.3em;
+    margin-left: 1.5em;
+    padding:5px;
+}
+.profile1 > label > b{
+    color:rgb(149, 148, 148);
+    padding-left: 2em;
+}
+.special{
+    margin-top: 100px;
+}
+.submitButton2{
+    width:30px;
+    color: white;
+    background: rgb(146, 145, 144);
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 5px;
+    border-radius:10px;
+    border:transparent;
+    margin-bottom: 2em;
+    cursor: pointer;
+}

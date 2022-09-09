@@ -1,0 +1,106 @@
+/* START FOR LABELINPUT */
+/* .name{
+    display: inline-block; 
+    position:absolute;
+    left:30px;
+} */
+.label{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #27200C;
+}
+.img1{
+    display: block;
+    position:absolute;
+    background-color: #fff;
+    border-radius:10px;
+    width: 20px;
+    left: 15px;
+    top:5px;
+}
+input{
+    /* display: block; */
+    width: 250px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: transparent;
+    padding: 7.35px;
+}
+.p_input:invalid[focused="true"]{
+    background-color: rgb(226, 62, 21);
+    border:2px solid rgb(226, 62, 21) ;
+}
+.p_input:valid[focused="false"]{
+    background-color:rgb(73, 184, 82);
+}
+/* ENG FOR LABELINPUT */
+
+/* START FOR CUSTOMBUTTON */
+.customButton{
+    background: rgb(163, 165, 164);
+    box-sizing: border-box;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border:transparent;
+    border-radius: 5px;
+    position: relative;
+    left: 200px;
+}
+.customLabel{
+    background-color: rgb(163, 165, 164);
+    height: 16px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    right: 10px;
+    top:2px;
+    cursor:pointer;
+}
+.img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top:2px;
+    left: 2px;
+}
+/* END FOR CUSTOMBUTTON */
+
+/* START FOR PROFILE */
+.profile{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: rgb(163, 165, 164);
+    margin: auto;
+    margin-top: -20px;
+}
+.img2{
+    position: absolute;
+    background-color: #fff;
+    border-radius:10px;
+    width: 20px;
+    bottom: 5px;
+    right:5px;
+    cursor: pointer;
+}
+/* END FOR PROFILE */
+
+.myP{
+    display: none;
+    color:red;
+    font-size: 10px;
+    padding: 3px;
+    font-weight: bold;
+    height: auto;
+}
+
+.myInput div > input:invalid[focused="true"] ~ .myP{
+    display:block;
+}

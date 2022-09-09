@@ -1,0 +1,158 @@
+.signupPage{
+    position: relative;
+    padding: 1em;
+    background: #27200C;
+    width:1440;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+.signupPage2{
+    position: relative;
+    padding: 1em;
+    background: rgba(243, 243, 243, 0.76);
+    width:1440;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Ssection{
+    padding-top: 0.5em;
+    width: 340px;
+    background: rgb(194, 192, 192);
+    border-radius:10px;
+    margin: auto;
+    margin-top: 3em;
+}
+.Swelcome{
+    margin-top: 0px;
+    color:#27200C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.signupForm{
+    width: 340px;
+    justify-content: center;
+    position: relative;
+}
+.Slogo{
+    background: url('../image//myLogo3.png') no-repeat center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    transition: 3s;
+    animation-iteration-count: infinite;
+}
+.SlogoR{
+    transition: 3s;
+    transform: rotateZ(360deg);
+}
+form:invalid button {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+.submitButton{
+    width:300px;
+    color: white;
+    background: #27200C;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    padding-bottom: 9px;
+    border-radius:10px;
+    border:transparent;
+    box-shadow: rgb(212, 198, 6);
+    margin-bottom: 0.5em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* @media(max-width:1350px) { */
+    /* .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:1350px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:57%;
+        top:10%;
+    } */
+/* } */
+/* @media(max-width:1300px) { */
+    /* .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:1300px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:55%;
+        top:10%;
+    } */
+/* } */
+/* @media(max-width:1200px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:1200px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:50%;
+        top:10%;
+    }
+} */
+/* @media(max-width:1000px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:1000px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+} */
+/* @media(max-width:900px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:900px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+} */
+/* @media(max-width:800px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:800px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:47%;
+        top:10%;
+    }
+} */

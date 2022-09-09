@@ -1,0 +1,568 @@
+.homePage{
+    background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+    width:1440;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+}
+.home{
+    position: absolute;
+    left:43.5%;
+    top:13%;
+}
+.Hwelcome{
+    display: absolute;
+    color:#27200C;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    left:57%;
+    top:10%;
+}
+.Hlogo{
+    background: url('../image//myLogo3.png') no-repeat center;
+    display: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    position: absolute;
+    left:132px;
+    top:40px;
+}
+.Hwelcome2{
+    display: absolute;
+    color:#27200C;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    left:185px;
+    top:00px;
+}
+.profilebutton{
+    color: #27200C;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 20px;
+    padding-bottom: 9px;
+    border-radius:10px;
+    border:transparent;
+    box-shadow: rgb(19, 6, 212);
+    position: absolute;
+    top:45%;
+    left:50%;
+}
+.section{
+    width: 300px;
+    height: 83vh;
+    background: #27200C;
+    border-radius:10px;
+    position: absolute;
+    right:2% ;
+    top:9%;
+}
+.homeText{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.homeText2{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.signButton{
+    color: #27200C;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 7px 17px;
+    border-radius:10px;
+    position: absolute;
+    bottom: 60px;
+    left:29%;
+}
+.loginButton{
+    color: #27200C;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 7px 17px;
+    border-radius:10px;
+    position: absolute;
+    bottom: 60px;
+    left:29%;
+}
+
+
+@media(max-width:1120px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        width:1120px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:40%;
+        top:10%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        position: absolute;
+        top:45%;
+        left:45%;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2%;
+        top:9%;
+    }
+}
+@media(max-width:1130px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2% ;
+        top:9%;
+    }
+}
+@media(max-width:1125px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2% ;
+        top:9%;
+    }
+}
+@media(max-width:1120px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: brown; */
+        width:1120x;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:36%;
+        top:10%;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2% ;
+        top:9%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        box-shadow: rgb(19, 6, 212);
+        position: absolute;
+        top:45%;
+        left:42%;
+    }
+}
+@media(max-width:1115px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:4% ;
+        top:9%;
+    }
+}
+@media(max-width:1100px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: yellow; */
+        width:1100px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:32%;
+        top:10%;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2%;
+        top:9%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        position: absolute;
+        top:45%;
+        left:36%;
+    }
+}
+@media(max-width:1090px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:4% ;
+        top:9%;
+    }
+}
+@media(max-width:1080px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:4% ;
+        top:9%;
+    }
+}
+@media(max-width:1070px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:6% ;
+        top:9%;
+    }
+}
+@media(max-width:1060px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:6% ;
+        top:9%;
+    }
+}
+@media(max-width:1040px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:8.5% ;
+        top:9%;
+    }
+}
+@media(max-width:1030px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: gray; */
+        width:1030px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:2%;
+        top:9%;
+    }
+}
+@media(max-width:1015px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:3%;
+        top:9%;
+    }
+}
+@media(max-width:1000px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: white; */
+        width:1000px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .home{
+        position: absolute;
+        left:20%;
+        top:10%;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:3%;
+        top:9%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        position: absolute;
+        top:45%;
+        left:27%;
+    }
+}
+@media(max-width:930px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:12.5%;
+        top:9%;
+    }
+}
+@media(max-width:900px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: white; */
+        width:1000px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+    }
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:13.5%;
+        top:9%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        position: absolute;
+        top:45%;
+        left:26%;
+    }
+}
+@media(max-width:880px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:15.5%;
+        top:9%;
+    }
+}
+@media(max-width:860px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:17.5%;
+        top:9%;
+    }
+}
+@media(max-width:840px) {
+    .section{
+        width: 300px;
+        height: 83vh;
+        background:#27200C;
+        border-radius:10px;
+        position: absolute;
+        right:20%;
+        top:9%;
+    }
+}
+@media(max-width:800px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: lightgreen; */
+        width:800px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+     }
+     .section{
+        width: 300px;
+        height: 83vh;
+        background: r#27200C;
+        border-radius:10px;
+        position: absolute;
+        right:5%;
+        top:9%;
+    }
+}
+@media(max-width:760px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: lightgreen; */
+        width:800px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+     }
+     .section{
+        width: 280px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:5%;
+        top:9%;
+    }
+}
+@media(max-width:740px) {
+    .homePage{
+        background: url('../image/green-wall-mockup-background.jpg') no-repeat center;
+        /* background: lightgreen; */
+        width:800px;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        margin: auto;
+        padding: 0;
+     }
+     .section{
+        width: 200px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:13%;
+        top:9%;
+    }
+}
+@media(max-width:700px) {
+     .section{
+        width: 200px;
+        height: 83vh;
+        background:#27200C;
+        border-radius:10px;
+        position: absolute;
+        right:17%;
+        top:9%;
+    }
+}
+@media(max-width:680px) {
+     .section{
+        width: 200px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:19%;
+        top:9%;
+    }
+}
+@media(max-width:680px) {
+     .section{
+        width: 200px;
+        height: 83vh;
+        background: #27200C;
+        border-radius:10px;
+        position: absolute;
+        right:19%;
+        top:9%;
+    }
+}
+@media(max-width:660px) {
+     .section{
+       display: none;
+    }
+    .home{
+        position: absolute;
+        left:34%;
+        top:10%;
+    }
+    .profilebutton{
+        color: #27200C;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px 20px;
+        padding-bottom: 9px;
+        border-radius:10px;
+        border:transparent;
+        position: absolute;
+        top:45%;
+        left:40%;
+    }
+}
