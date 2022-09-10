@@ -18,7 +18,7 @@ require('./connection');
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('profile-app/build'))
-    app.get('/*', (req, res) => {
+    app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, 'profile-app', 'build', 'index.html'))
     })
   }
